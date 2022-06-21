@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="./nonscript.js"></script>
+        <script src="./box.js"></script>
+        <script src="./box-rotate.js"></script>
+    </head>
+    <body>
+        <a-scene background="color:yellow">
+            <a-camera position="0 0 5"></a-camera>
+            <a-entity log="message:Bhavya"></a-entity>
+            <a-entity move-box postion="0 0 0" rotation="0 0 0">
+                <a-box></a-box>
+            </a-entity>
+            <a-entity rotate-box postion="-3 0 0" >
+                <a-box></a-box>
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
